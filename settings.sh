@@ -27,11 +27,12 @@ PACKAGES=(
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra ffmpegthumbnailer
 	# MY CUSTOM added lines...
-	paru aura octopi polkit-gnome pamac-aur
+	paru aura octopi polkit-gnome
 )
 
 # If you want to install AUR packages, specify them in this variable
-AUR_PACKAGES=(faugus-launcher-git)
+# AUR_PACKAGES=(faugus-launcher-git)
+AUR_PACKAGES=(faugus-launcher-git pamac-aur)
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for
